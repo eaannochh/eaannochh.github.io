@@ -1,0 +1,114 @@
+html,
+body {
+  font-family: Roboto;
+  background-color: #709c6f;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: none;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  height: 3rem;
+  background-color: #709c6f;
+  justify-content: space-evenly;
+}
+
+.footer ul li {
+  align-self: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  padding: 0.5rem;
+}
+
+h1 {
+  background-color: black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+p {
+  padding: 0.5rem 0 0.5rem;
+  line-height: 0.5rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+header nav {
+  padding: 2rem;
+  height: 4rem;
+}
+
+header nav {
+  background-color: #709c6f;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: left;
+}
+
+header nav ul li {
+  display: flex;
+  padding-right: 2.5rem;
+  padding-top: 2rem;
+}
+
+header nav ul li a {
+  color: black;
+  font-weight: normal;
+}
+
+main section {
+  flex: 1 0 auto;
+  margin: 1 0 auto;
+  background-color: #709c6f;
+  padding: 2rem;
+}
+
+p#læg-i-kurv {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+div {
+  background-color: #19e55e;
+  size: 1rem;
+}
+
+footer section {
+  flex: 1 0 auto;
+  margin: 1 0 auto;
+  background-color: #709c6f;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 900px) {
+  main section {
+    max-width: 2000px;
+  }
+}
